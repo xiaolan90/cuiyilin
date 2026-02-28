@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>小漪 | 喜欢你</title>
+    <title>艺琳姐姐的</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -132,7 +132,7 @@
         .footer {
             position: absolute;
             bottom: 25px;
-            color: rgba(255, 255, 255, 0.5);
+            color: #fff143; /* 修改为指定的亮黄色 #fff143，其余不变 */
             font-size: 0.95rem;
             text-align: center;
             width: 100%;
@@ -203,20 +203,20 @@
         <canvas id="pinkboard"></canvas>
         
         <div class="name-center">
-            <div class="name">小漪</div>
+            <div class="name">崔艺琳</div>
             <div class="subtitle">SatyWitM</div>
         </div>
         
         <div class="controls">
             <button class="music-btn" id="playBtn">
                 <i class="fas fa-music"></i>
-                <span>你喜欢的点这里</span>
+                <span></span>
             </button>
-            <div class="hint">You Are Not Alone</div>
+            <div class="hint"></div>
         </div>
         
         <div class="footer">
-            会一直在你身边 · 2025-9999
+             2026-9999
         </div>
     </div>
 
@@ -235,7 +235,7 @@
                 playBtn.innerHTML = '<i class="fas fa-pause"></i><span>喜欢你</span>';
             } else {
                 music.pause();
-                playBtn.innerHTML = '<i class="fas fa-music"></i><span>刘慧珊</span>';
+                playBtn.innerHTML = '<i class="fas fa-music"></i><span></span>';
             }
         });
         
